@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    button {
+        @apply m-auto rounded border border-fuchsia-400 border-opacity-50 bg-slate-900 bg-opacity-20 p-4 text-2xl text-yellow-200 text-opacity-80 shadow-sm;
+    }
+    button:hover {
+        @apply bg-fuchsia-400 bg-opacity-90 text-blue-200 shadow-2xl shadow-black;
+    }
+    .card {
+        @apply flex flex-col bg-purple-900 bg-opacity-10 p-8 shadow-lg;
+    }
+}
